@@ -1,0 +1,32 @@
+{
+  "name": "@amindunited/remove-directory",
+  "version": "0.0.0",
+  "description": "Remove a directory in node and return promise",
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1"
+  },
+  "scripts": {
+    "test": "nyc --reporter=html mocha './src/**/*.test.js' --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amindunited/remove-directory.git"
+  },
+  "keywords": [
+    "Remove",
+    "directory",
+    "rimraf",
+    "promise",
+    "node"
+  ],
+  "author": "Robin Buckley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amindunited/remove-directory/issues"
+  },
+  "homepage": "https://github.com/amindunited/remove-directory#readme"
+}
